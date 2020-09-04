@@ -2,7 +2,7 @@
 
 ## Contents of the repo:  
 
-- basic_setup.sh, this installs:
+### basic_setup.sh, this installs:
     - With apt:
         - git
         - g++
@@ -23,9 +23,21 @@
         - eclipse
         - intellij-idea-community  
     
-    **Note:** You have to run this script as sudo.
+#### Usage:
+```bash
 
+sudo sh basic_setup.sh
 
+```
 
-- swap_setup.sh:  
+### swap_setup.sh:  
 This sets up a swapfile at /swapfile2. With the commandline argument you can set its size. This script uses fallocate.
+
+#### Usage:
+```bash
+
+sudo sh swap_setup.sh <swap size>
+
+```
+
+Swap size can be for example: 1024M, 4G, etc.
