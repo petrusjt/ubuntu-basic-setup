@@ -16,6 +16,7 @@
         - pandoc
         - python3-pip
         - mc (Midnight Commander)
+        - vlc
     - With snap:
         - discord
         - chromium
@@ -41,3 +42,12 @@ sudo sh swap_setup.sh <swap size>
 ```
 
 Swap size can be for example: 1024M, 4G, etc.
+
+##### Example:
+```bash
+sudo sh swap_setup.sh 4G
+```
+This will create a swapfile with a size of 4GB.
+
+## Description:  
+This setup is for my own needs.
