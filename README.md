@@ -23,6 +23,7 @@
         - node (NodeJS)
         - eclipse
         - intellij-idea-community  
+        - dotnet-sdk
     
 #### Usage:
 ```bash
