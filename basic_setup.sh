@@ -10,3 +10,4 @@ sudo snap install code --classic
 sudo snap install intellij-idea-community --classic
 sudo snap install node --classic
 sudo snap install eclipse --classic
+sudo snap install dotnet-sdk --classic
