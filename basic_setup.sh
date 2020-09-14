@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt install git g++ openjdk-14-jdk htop make python-is-python3 curl pulseeffects texlive-latex-recommended pandoc python3-pip mc vlc -y
+sudo apt install git g++ openjdk-14-jdk htop make python-is-python3 curl pulseeffects texlive-latex-recommended pandoc python3-pip mc vlc openssh-server -y
 
 sudo snap install discord chromium
 sudo snap install code --classic
