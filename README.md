@@ -17,6 +17,7 @@
         - python3-pip
         - mc (Midnight Commander)
         - vlc
+        - openssh-server
     - With snap:
         - discord
         - chromium
